@@ -1,23 +1,23 @@
 # stock-market-predictions-
-🚀 Introduction
+Introduction
 
 The stock market is highly volatile, and predicting stock prices is a challenging task due to many influencing factors such as economic indicators, market sentiment, and global events.
 
 This project uses Machine Learning models (such as Linear Regression, Random Forest, and LSTM Neural Networks) to forecast stock prices based on historical data. It also visualizes stock price trends and compares predicted vs actual values.
 
-✨ Features
+# Features
 
-📈 Predicts stock closing prices for chosen companies
+#Predicts stock closing prices for chosen companies
 
-📊 Visualizes historical stock data (Open, High, Low, Close, Volume)
+# Visualizes historical stock data (Open, High, Low, Close, Volume)
 
-🤖 Compares different ML models (Regression, LSTM, etc.)
+# Compares different ML models (Regression, LSTM, etc.)
 
-📉 Shows prediction accuracy with error metrics (RMSE, MAPE, etc.)
+#Shows prediction accuracy with error metrics (RMSE, MAPE, etc.)
 
-🔍 Easy to extend for any stock ticker or custom dataset
+# Easy to extend for any stock ticker or custom dataset
 
-🛠️ Technologies Used
+# Technologies Used
 
 Programming Language: Python 3
 
@@ -33,7 +33,7 @@ TensorFlow / Keras – Deep Learning (LSTM)
 
 yfinance / Alpha Vantage API – Stock data collection
 
-📂 Dataset
+# Dataset
 
 The dataset is collected from Yahoo Finance
  (via yfinance library) or Kaggle stock datasets.
@@ -60,7 +60,7 @@ import yfinance as yf
 data = yf.download("AAPL", start="2015-01-01", end="2023-12-31")
 print(data.head())
 
-⚙️ Installation
+# Installation
 
 Clone the repository:
 
@@ -79,7 +79,7 @@ Install dependencies:
 
 pip install -r requirements.txt
 
-▶️ Usage
+#Usage
 
 Run the main script:
 
@@ -103,7 +103,7 @@ Predict next 30 days of stock prices
 
 Visualize predictions
 
-📊 Results
+#Results
 
 The project provides actual vs predicted stock price plots.
 
@@ -119,7 +119,7 @@ MAE: XX
 
 Accuracy: XX%
 
-🔮 Future Improvements
+#Future Improvements
 
 Integrate real-time stock data using live APIs
 
@@ -129,7 +129,7 @@ Add Sentiment Analysis (Twitter/News data) for better predictions
 
 Experiment with advanced models (XGBoost, Prophet, Transformer models)
 
-🤝 Contributing
+# Contributing
 
 Contributions are welcome!
 
@@ -141,8 +141,8 @@ Commit your changes
 
 Push to your fork and submit a Pull Request
 
-📜 License
+# License
 
 This project is licensed under the MIT License – feel free to use and modify it.
 
-✅ Now your README looks professional and deta
+# Now your README looks professional and deta
